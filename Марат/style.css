@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url("./16777.otf") ;
+}
+
+html {
+  background: url("./back.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cover {
+  /* background: #000; */
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  position: absolute;
+  color: #fff;
+  margin-left: 4%;
+}
+
+h2 {font-size: 25px;
+  font-weight: 500;
+  margin-top: 35px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: -2px 6px 0px rgba(0, 0, 0, 1);
+}
+h1 {line-height: 40px;
+  text-align: left;
+  margin-left: 0%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-shadow: -2px 6px 0px rgba(0, 0, 0, 1);
+}
+p {
+  font-size: 16px;
+}
+
+nav {
+  background: #000;
+}
+
+.picker {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 98vh;
+  margin-left: 7%;
+  margin-right: 5%;
+  margin-top: 4%;
+}
+
+.picker>img {
+  width: 80%;
+  height: 80%;
+}
+
+
+
+.wr{
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.wr:hover .wr__text{
+  opacity: 1;
+}
+
+.wr__img{
+  width: 100%;
+  height: 100%;
+}
+
+.wr__text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'MyWebFont';
+  font-size: 28px;
+  color: #fff;
+  text-shadow: -2px 6px 0px rgba(0, 0, 0, 1);
+  opacity: 0;
+  transition: 1s;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 25%
+}
+
+nav ul li {
+  display: inline;
+  margin: 0;
+  margin-left: 20px;
+  font-size: 14px;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+span {
+  color: #f1f1f1;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+}
+
+.ul2 a {
+  font-size: 12px;
+  color: #8B939B;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.ul2 a:hover {
+  border-bottom: 1.5px solid #8B939B;
+}
+
+.ul2-holder {
+  display: inline;
+  margin-left: 100px;
+}
